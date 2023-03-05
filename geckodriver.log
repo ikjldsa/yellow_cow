@@ -1,0 +1,800 @@
+1677890641524	geckodriver	INFO	Listening on 127.0.0.1:58272
+1677891242303	geckodriver	INFO	Listening on 127.0.0.1:59318
+1677891441375	geckodriver	INFO	Listening on 127.0.0.1:59827
+1677891444396	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ben\\AppData\\Local\\Temp\\rust_mozprofileBiIzjX"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677891444707	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677891444714	Marionette	INFO	Listening on port 59840
+Read port: 59840
+1677891444824	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ben\\AppData\\Local\\Temp\\rust_mozprofileBiIzjX\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://www.urbtix.hk/b3c79ec/f890b6f5917/6da34174.js line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WebGL context was lost.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WebGL context was lost.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WebGL context was lost.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WebGL context was lost.
+JavaScript error: resource://devtools/client/framework/devtools.js, line 852: TypeError: inspector is undefined
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript warning: resource://devtools/server/actors/utils/event-loop.js, line 82: debuggee 'self-hosted:1643' would run
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 376))
+InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment: sendPacket@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:376:10
+send@resource://devtools/shared/transport/js-window-actor-transport.js:58:25
+send@resource://devtools/server/devtools-server-connection.js:103:20
+_sendEvent@resource://devtools/shared/protocol/Actor.js:72:15
+initialize/<@resource://devtools/shared/protocol/Actor.js:46:16
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+doResume@resource://devtools/server/actors/thread.js:1348:10
+destroy@resource://devtools/server/actors/thread.js:351:12
+_destroyThreadActor@resource://devtools/server/actors/targets/window-global.js:1119:24
+destroy@resource://devtools/server/actors/targets/window-global.js:698:10
+module.exports/proto.destroy@resource://devtools/server/actors/targets/target-actor-mixin.js:126:30
+instantiate@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:154:26
+handleEvent@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:557:12
+enter@resource://devtools/server/actors/utils/event-loop.js:82:18
+_pauseAndRespond@resource://devtools/server/actors/thread.js:970:29
+onDebuggerStatement@resource://devtools/server/actors/thread.js:1915:17
+_$Hy@https://www.urbtix.hk/b3c79ec/f890b6f5917/6da34174.js line 1 > eval:1:142551
+_$Hy@https://www.urbtix.hk/b3c79ec/f890b6f5917/6da34174.js line 1 > eval:1:138729
+_$d6@https://www.urbtix.hk/b3c79ec/f890b6f5917/6da34174.js line 1 > eval:1:2114
+
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 376))
+InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment: sendPacket@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:376:10
+send@resource://devtools/shared/transport/js-window-actor-transport.js:58:25
+send@resource://devtools/server/devtools-server-connection.js:103:20
+_sendEvent@resource://devtools/shared/protocol/Actor.js:72:15
+initialize/<@resource://devtools/shared/protocol/Actor.js:46:16
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+notifyResources@resource://devtools/server/actors/targets/target-actor-mixin.js:82:12
+onResumed@resource://devtools/server/actors/resources/thread-states.js:127:10
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+doResume@resource://devtools/server/actors/thread.js:1348:10
+destroy@resource://devtools/server/actors/thread.js:351:12
+_destroyThreadActor@resource://devtools/server/actors/targets/window-global.js:1119:24
+destroy@resource://devtools/server/actors/targets/window-global.js:698:10
+module.exports/proto.destroy@resource://devtools/server/actors/targets/target-actor-mixin.js:126:30
+instantiate@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:154:26
+handleEvent@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:557:12
+enter@resource://devtools/server/actors/utils/event-loop.js:82:18
+_pauseAndRespond@resource://devtools/server/actors/thread.js:970:29
+onDebuggerStatement@resource://devtools/server/actors/thread.js:1915:17
+_$Hy@https://www.urbtix.hk/b3c79ec/f890b6f5917/6da34174.js line 1 > eval:1:142551
+_$Hy@https://www.urbtix.hk/b3c79ec/f890b6f5917/6da34174.js line 1 > eval:1:138729
+_$d6@https://www.urbtix.hk/b3c79ec/f890b6f5917/6da34174.js line 1 > eval:1:2114
+
+JavaScript warning: resource://devtools/server/actors/utils/event-loop.js, line 82: debuggee 'https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js:1877' would run
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript warning: resource://devtools/server/actors/utils/event-loop.js, line 82: debuggee 'self-hosted:1643' would run
+1677893835432	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+enter@resource://devtools/server/actors/utils/event-loop.js:82:18
+_pauseAndRespond@resource://devtools/server/actors/thread.js:970:29
+onDebuggerStatement@resource://devtools/server/actors/thread.js:1915:17
+@https://www.urbtix.hk/b3c79ec/f890b6f5917/6da34174.js line 1 > eval line 1 > eval:1:34
+@https://www.urbtix.hk/b3c79ec/f890b6f5917/6da34174.js line 1 > eval line 1 > eval:1:73
+_$Hy@https://www.urbtix.hk/b3c79ec/f890b6f5917/6da34174.js line 1 > eval:1:152258
+_$Jd@https://www.urbtix.hk/b3c79ec/f890b6f5917/6da34174.js line 1 > eval:1:2010
+setInterval handler*_$Hy@https://www.urbtix.hk/b3c79ec/f890b6f5917/6da34174.js line 1 > eval:1:135933
+_$Hy@https://www.urbtix.hk/b3c79ec/f890b6f5917/6da34174.js line 1 > eval:1:108425
+_$eu@https://www.urbtix.hk/b3c79ec/f890b6f5917/6da34174.js line 1 > eval:1:1282
+EventListener.handleEvent*_$Et@https://www.urbtix.hk/b3c79ec/f890b6f5917/6da34174.js line 1 > eval:1:3332
+_$Hy@https://www.urbtix.hk/b3c79ec/f890b6f5917/6da34174.js line 1 > eval:1:139637
+_$Hy@https://www.urbtix.hk/b3c79ec/f890b6f5917/6da34174.js line 1 > eval:1:118403
+@https://www.urbtix.hk/b3c79ec/f890b6f5917/6da34174.js line 1 > eval:1:80836
+@https://www.urbtix.hk/b3c79ec/f890b6f5917/6da34174.js line 1 > eval:1:173578
+_$yD@https://www.urbtix.hk/b3c79ec/f890b6f5917/6da34174.js:1:93491
+_$yD@https://www.urbtix.hk/b3c79ec/f890b6f5917/6da34174.js:1:96423
+_$yD@https://www.urbtix.hk/b3c79ec/f890b6f5917/6da34174.js:1:94106
+@https://www.urbtix.hk/b3c79ec/f890b6f5917/6da34174.js:1:91683
+@https://www.urbtix.hk/b3c79ec/f890b6f5917/6da34174.js:1:105448
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1677893849473	Marionette	INFO	Stopped listening on port 59840
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1677893877058	geckodriver	INFO	Listening on 127.0.0.1:64549
+1677893880072	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ben\\AppData\\Local\\Temp\\rust_mozprofileem28D1"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677893880417	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677893880421	Marionette	INFO	Listening on port 64562
+Read port: 64562
+1677893880889	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ben\\AppData\\Local\\Temp\\rust_mozprofileem28D1\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://www.urbtix.hk/b3c79ec/f890b6f5917/6da34174.js line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WebGL context was lost.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WebGL context was lost.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WebGL context was lost.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WebGL context was lost.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.urbtix.hk."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.urbtix.hk."
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 603))
+JavaScript warning: https://t.captcha.qq.com/tdc.js?app_data=7037600293133721600&t=443805542, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://t.captcha.qq.com/tdc.js?app_data=7037600293133721600&t=443805542, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.urbtix.hk."
+JavaScript warning: https://t.captcha.qq.com/tdc.js?app_data=7037602702102863872&t=842963661, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://t.captcha.qq.com/tdc.js?app_data=7037602702102863872&t=842963661, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript warning: resource://devtools/server/actors/utils/event-loop.js, line 82: debuggee 'self-hosted:1643' would run
+1677895761137	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript warning: resource://devtools/server/actors/utils/event-loop.js, line 82: debuggee 'self-hosted:1643' would run
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 603))
+JavaScript warning: https://t.captcha.qq.com/tdc.js?app_data=7037607068918587392&t=1079679629, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://t.captcha.qq.com/tdc.js?app_data=7037607068918587392&t=1079679629, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: resource://devtools/server/actors/utils/event-loop.js, line 82: debuggee 'self-hosted:1643' would run
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript warning: resource://devtools/server/actors/utils/event-loop.js, line 82: debuggee 'self-hosted:1643' would run
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript warning: resource://devtools/server/actors/utils/event-loop.js, line 82: debuggee 'self-hosted:1643' would run
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1677928785254	Marionette	INFO	Stopped listening on port 64562
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1677928815673	geckodriver	INFO	Listening on 127.0.0.1:56975
+1677928818692	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ben\\AppData\\Local\\Temp\\rust_mozprofileLU1AKs"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677928819061	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677928819065	Marionette	INFO	Listening on port 56996
+Read port: 56996
+1677928819613	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.sys.mjs: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.sys.mjs", 416))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ben\\AppData\\Local\\Temp\\rust_mozprofileLU1AKs\\search.json.mozlz4", (void 0)))
+console.error: (new TypeError("NetworkError: Network request failed", "resource://services-settings/Utils.jsm", 237))
+1677928825268	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1677929855430	Marionette	INFO	Stopped listening on port 56996
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1677929870340	geckodriver	INFO	Listening on 127.0.0.1:53907
+1677929873356	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ben\\AppData\\Local\\Temp\\rust_mozprofileMtGrEq"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677929873705	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677929873709	Marionette	INFO	Listening on port 53922
+Read port: 53922
+1677929874156	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ben\\AppData\\Local\\Temp\\rust_mozprofileMtGrEq\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://www.urbtix.hk/b3c79ec/f890b6f5917/6da34174.js line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WebGL context was lost.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WebGL context was lost.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WebGL context was lost.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WebGL context was lost.
+1677930029843	Marionette	INFO	Stopped listening on port 53922
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1677930279601	geckodriver	INFO	Listening on 127.0.0.1:54684
+1677930282609	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ben\\AppData\\Local\\Temp\\rust_mozprofileqXtUo4"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677930282964	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677930282968	Marionette	INFO	Listening on port 54696
+Read port: 54696
+1677930283396	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ben\\AppData\\Local\\Temp\\rust_mozprofileqXtUo4\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://www.urbtix.hk/b3c79ec/f890b6f5917/6da34174.js line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WebGL context was lost.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WebGL context was lost.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WebGL context was lost.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WebGL context was lost.
+1677930311192	Marionette	INFO	Stopped listening on port 54696
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1677930398909	geckodriver	INFO	Listening on 127.0.0.1:54927
+1677930401925	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ben\\AppData\\Local\\Temp\\rust_mozprofilelGqo8v"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677930402252	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677930402256	Marionette	INFO	Listening on port 54941
+Read port: 54941
+1677930402724	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ben\\AppData\\Local\\Temp\\rust_mozprofilelGqo8v\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://www.urbtix.hk/b3c79ec/f890b6f5917/6da34174.js line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WebGL context was lost.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WebGL context was lost.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WebGL context was lost.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WebGL context was lost.
+1677930435593	Marionette	INFO	Stopped listening on port 54941
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1677930445979	geckodriver	INFO	Listening on 127.0.0.1:55047
+1677930448995	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ben\\AppData\\Local\\Temp\\rust_mozprofileS13CCL"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677930449315	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677930449319	Marionette	INFO	Listening on port 55064
+Read port: 55064
+1677930449750	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ben\\AppData\\Local\\Temp\\rust_mozprofileS13CCL\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://www.urbtix.hk/b3c79ec/f890b6f5917/6da34174.js line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WebGL context was lost.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WebGL context was lost.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WebGL context was lost.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WebGL context was lost.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://devtools/client/framework/devtools.js, line 852: TypeError: inspector is undefined
+JavaScript warning: resource://devtools/server/actors/utils/event-loop.js, line 82: debuggee 'self-hosted:1643' would run
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://devtools/client/framework/devtools.js, line 852: TypeError: inspector is undefined
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.urbtix.hk."
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript warning: resource://devtools/server/actors/utils/event-loop.js, line 82: debuggee 'self-hosted:1643' would run
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 603))
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript warning: https://t.captcha.qq.com/tdc.js?app_data=7037754545885913088&t=1105945899, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://t.captcha.qq.com/tdc.js?app_data=7037754545885913088&t=1105945899, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.urbtix.hk."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.urbtix.hk."
+1677931643711	Marionette	INFO	Stopped listening on port 55064
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1677931728045	geckodriver	INFO	Listening on 127.0.0.1:56964
+1677931731063	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ben\\AppData\\Local\\Temp\\rust_mozprofileBv9Gyx"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677931731419	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677931731424	Marionette	INFO	Listening on port 56981
+Read port: 56981
+1677931731976	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ben\\AppData\\Local\\Temp\\rust_mozprofileBv9Gyx\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://www.urbtix.hk/b3c79ec/f890b6f5917/6da34174.js line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WebGL context was lost.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WebGL context was lost.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WebGL context was lost.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WebGL context was lost.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 603))
+JavaScript warning: https://t.captcha.qq.com/tdc.js?app_data=7037755923656056832&t=353113516, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://t.captcha.qq.com/tdc.js?app_data=7037755923656056832&t=353113516, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.urbtix.hk."
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript warning: resource://devtools/server/actors/utils/event-loop.js, line 82: debuggee 'https://www.urbtix.hk/b3c79ec/f890b6f5917/6da34174.js line 1 > eval:1' would run
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1677931849518	Marionette	INFO	Stopped listening on port 56981
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1677931863927	geckodriver	INFO	Listening on 127.0.0.1:57246
+1677931866937	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ben\\AppData\\Local\\Temp\\rust_mozprofilehtvwB4"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677931867267	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677931867271	Marionette	INFO	Listening on port 57260
+Read port: 57260
+1677931867707	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ben\\AppData\\Local\\Temp\\rust_mozprofilehtvwB4\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://www.urbtix.hk/b3c79ec/f890b6f5917/6da34174.js line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WebGL context was lost.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WebGL context was lost.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WebGL context was lost.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WebGL context was lost.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 603))
+JavaScript warning: https://t.captcha.qq.com/tdc.js?app_data=7037756425236094976&t=713513146, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://t.captcha.qq.com/tdc.js?app_data=7037756425236094976&t=713513146, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.urbtix.hk."
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript warning: resource://devtools/server/actors/utils/event-loop.js, line 82: debuggee 'self-hosted:1643' would run
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://devtools/client/framework/devtools.js, line 852: TypeError: inspector is undefined
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.urbtix.hk."
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 603))
+JavaScript warning: https://t.captcha.qq.com/tdc.js?app_data=7037760407706771456&t=1204025766, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://t.captcha.qq.com/tdc.js?app_data=7037760407706771456&t=1204025766, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://devtools/client/framework/devtools.js, line 852: TypeError: inspector is undefined
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript warning: resource://devtools/server/actors/utils/event-loop.js, line 82: debuggee 'https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js:15' would run
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://devtools/client/framework/devtools.js, line 852: TypeError: inspector is undefined
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1677947080523	Marionette	INFO	Stopped listening on port 57260
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+onsole.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677947075481	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677947075486	Marionette	INFO	Listening on port 50069
+Read port: 50069
+1677947075726	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ben\\AppData\\Local\\Temp\\rust_mozprofile9Trz49\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://www.urbtix.hk/b3c79ec/f890b6f5917/6da34174.js line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WebGL context was lost.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WebGL context was lost.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WebGL context was lost.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WebGL context was lost.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 603))
+JavaScript warning: https://t.captcha.qq.com/tdc.js?app_data=7037820264770150400&t=775756816, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://t.captcha.qq.com/tdc.js?app_data=7037820264770150400&t=775756816, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.urbtix.hk."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.urbtix.hk."
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://devtools/client/framework/devtools.js, line 852: TypeError: inspector is undefined
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://devtools/client/framework/devtools.js, line 852: TypeError: inspector is undefined
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 603))
+JavaScript warning: https://t.captcha.qq.com/tdc.js?app_data=7037824295789895680&t=102715041, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://t.captcha.qq.com/tdc.js?app_data=7037824295789895680&t=102715041, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://devtools/client/framework/devtools.js, line 852: TypeError: inspector is undefined
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://devtools/client/framework/devtools.js, line 852: TypeError: inspector is undefined
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://devtools/client/framework/devtools.js, line 852: TypeError: inspector is undefined
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://devtools/client/framework/devtools.js, line 852: TypeError: inspector is undefined
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://devtools/client/framework/devtools.js, line 852: TypeError: inspector is undefined
+JavaScript warning: resource://devtools/server/actors/utils/event-loop.js, line 82: debuggee 'https://www.urbtix.hk/b3c79ec/f890b6f5917/6da34174.js line 1 > eval:1' would run
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1677962688574	Marionette	INFO	Stopped listening on port 50069
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1677962698714	geckodriver	INFO	Listening on 127.0.0.1:53875
+1677962701732	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ben\\AppData\\Local\\Temp\\rust_mozprofileeDptDh"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677962702082	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677962702087	Marionette	INFO	Listening on port 53895
+Read port: 53895
+1677962702622	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ben\\AppData\\Local\\Temp\\rust_mozprofileeDptDh\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://www.urbtix.hk/b3c79ec/f890b6f5917/6da34174.js line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WebGL context was lost.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WebGL context was lost.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WebGL context was lost.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WebGL context was lost.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 603))
+JavaScript warning: https://t.captcha.qq.com/tdc.js?app_data=7037885781929336832&t=1958161101, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://t.captcha.qq.com/tdc.js?app_data=7037885781929336832&t=1958161101, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.urbtix.hk."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.urbtix.hk."
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript warning: https://cstaticdun.126.net/2.21.2/core.v2.21.2.min.js?v=2796606, line 1: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to open media
+[Child 4852, MediaDecoderStateMachine #1] WARNING: Decoder=1c08f0c3f00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 4852, MediaDecoderStateMachine #1] WARNING: Decoder=1c08f0c3f00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:164
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 603))
+JavaScript warning: https://t.captcha.qq.com/tdc.js?app_data=7037890016372826112&t=1223127154, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://t.captcha.qq.com/tdc.js?app_data=7037890016372826112&t=1223127154, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1677963835514	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript warning: resource://devtools/server/actors/utils/event-loop.js, line 82: debuggee 'self-hosted:1643' would run
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 603))
+JavaScript warning: https://t.captcha.qq.com/tdc.js?app_data=7037894043684806656&t=671609077, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://t.captcha.qq.com/tdc.js?app_data=7037894043684806656&t=671609077, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1677965563062	geckodriver	INFO	Listening on 127.0.0.1:56262
+1677965566081	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ben\\AppData\\Local\\Temp\\rust_mozprofilerS22TZ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677965566427	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677965566432	Marionette	INFO	Listening on port 56275
+Read port: 56275
+1677965566926	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ben\\AppData\\Local\\Temp\\rust_mozprofilerS22TZ\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://www.urbtix.hk/b3c79ec/f890b6f5917/6da34174.js line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WebGL context was lost.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WebGL context was lost.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WebGL context was lost.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WebGL context was lost.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 603))
+JavaScript warning: https://t.captcha.qq.com/tdc.js?app_data=7037897781635948544&t=622800094, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://t.captcha.qq.com/tdc.js?app_data=7037897781635948544&t=622800094, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.urbtix.hk."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.urbtix.hk."
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1677966258227	Marionette	INFO	Stopped listening on port 56275
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1677966305218	geckodriver	INFO	Listening on 127.0.0.1:57451
+1677966308249	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ben\\AppData\\Local\\Temp\\rust_mozprofileLvS4cB"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677966308604	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677966308609	Marionette	INFO	Listening on port 57466
+Read port: 57466
+1677966309101	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ben\\AppData\\Local\\Temp\\rust_mozprofileLvS4cB\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://www.urbtix.hk/b3c79ec/f890b6f5917/6da34174.js line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WebGL context was lost.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WebGL context was lost.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WebGL context was lost.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WebGL context was lost.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 603))
+JavaScript warning: https://t.captcha.qq.com/tdc.js?app_data=7037900883122429952&t=1210593161, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://t.captcha.qq.com/tdc.js?app_data=7037900883122429952&t=1210593161, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.urbtix.hk."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.urbtix.hk."
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://devtools/client/framework/devtools.js, line 852: TypeError: inspector is undefined
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1677966689105	Marionette	INFO	Stopped listening on port 57466
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1677975874651	geckodriver	INFO	Listening on 127.0.0.1:49647
+1677975877682	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ben\\AppData\\Local\\Temp\\rust_mozprofilekw0Gza"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677975878054	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677975878058	Marionette	INFO	Listening on port 49660
+Read port: 49660
+1677975878605	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ben\\AppData\\Local\\Temp\\rust_mozprofilekw0Gza\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://www.urbtix.hk/b3c79ec/f890b6f5917/6da34174.js line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WebGL context was lost.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WebGL context was lost.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WebGL context was lost.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WebGL context was lost.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 603))
+JavaScript warning: https://t.captcha.qq.com/tdc.js?app_data=7037941117105184768&t=2025400944, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://t.captcha.qq.com/tdc.js?app_data=7037941117105184768&t=2025400944, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.urbtix.hk."
+1677976015562	Marionette	INFO	Stopped listening on port 49660
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1677976121143	geckodriver	INFO	Listening on 127.0.0.1:50086
+1677976124160	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ben\\AppData\\Local\\Temp\\rust_mozprofilei5l9P7"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677976124528	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677976124533	Marionette	INFO	Listening on port 50102
+Read port: 50102
+1677976125011	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ben\\AppData\\Local\\Temp\\rust_mozprofilei5l9P7\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://www.urbtix.hk/b3c79ec/f890b6f5917/6da34174.js line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WebGL context was lost.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WebGL context was lost.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WebGL context was lost.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WebGL context was lost.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 603))
+JavaScript warning: https://t.captcha.qq.com/tdc.js?app_data=7037942081467949056&t=1148030987, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://t.captcha.qq.com/tdc.js?app_data=7037942081467949056&t=1148030987, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.urbtix.hk."
+1677976342862	Marionette	INFO	Stopped listening on port 50102
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1677976355477	geckodriver	INFO	Listening on 127.0.0.1:50509
+1677976358497	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ben\\AppData\\Local\\Temp\\rust_mozprofileAdSiwR"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677976358845	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677976358849	Marionette	INFO	Listening on port 50521
+Read port: 50521
+1677976359307	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ben\\AppData\\Local\\Temp\\rust_mozprofileAdSiwR\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://www.urbtix.hk/b3c79ec/f890b6f5917/6da34174.js line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WebGL context was lost.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WebGL context was lost.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WebGL context was lost.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WebGL context was lost.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 603))
+JavaScript warning: https://t.captcha.qq.com/tdc.js?app_data=7037943019146551296&t=1381239169, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://t.captcha.qq.com/tdc.js?app_data=7037943019146551296&t=1381239169, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.urbtix.hk."
+1677976676841	Marionette	INFO	Stopped listening on port 50521
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1677976685092	geckodriver	INFO	Listening on 127.0.0.1:51054
+1677976688117	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ben\\AppData\\Local\\Temp\\rust_mozprofileKxeRvB"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677976688436	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677976688440	Marionette	INFO	Listening on port 51066
+Read port: 51066
+1677976688870	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ben\\AppData\\Local\\Temp\\rust_mozprofileKxeRvB\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://www.urbtix.hk/b3c79ec/f890b6f5917/6da34174.js line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WebGL context was lost.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WebGL context was lost.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WebGL context was lost.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WebGL context was lost.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 603))
+JavaScript warning: https://t.captcha.qq.com/tdc.js?app_data=7037944647098540032&t=1366637232, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://t.captcha.qq.com/tdc.js?app_data=7037944647098540032&t=1366637232, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.urbtix.hk."
+1677976866549	Marionette	INFO	Stopped listening on port 51066
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1677976868349	geckodriver	INFO	Listening on 127.0.0.1:51393
+1677976871375	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ben\\AppData\\Local\\Temp\\rust_mozprofileIlZeBj"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677976871688	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677976871692	Marionette	INFO	Listening on port 51407
+Read port: 51407
+1677976872119	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ben\\AppData\\Local\\Temp\\rust_mozprofileIlZeBj\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://www.urbtix.hk/b3c79ec/f890b6f5917/6da34174.js line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WebGL context was lost.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WebGL context was lost.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WebGL context was lost.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.a6e580a7.js, line 1863: WebGL context was lost.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 603))
+JavaScript warning: https://t.captcha.qq.com/tdc.js?app_data=7037945361472397312&t=1562141507, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://t.captcha.qq.com/tdc.js?app_data=7037945361472397312&t=1562141507, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.urbtix.hk."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.urbtix.hk."
+1677977540041	Marionette	INFO	Stopped listening on port 51407
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
