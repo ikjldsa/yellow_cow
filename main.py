@@ -58,7 +58,14 @@ class  yellow_cow:
             # EC.presence_of_element_located((By.CSS_SELECTOR,".buy-icon.icon']"))
         )
         time.sleep(self.lag)
-        driver.find_element(By.XPATH, "//div[@title='Purchase Ticket']").click()
+        
+        while True:
+            try:
+                driver.find_element(By.XPATH, "//div[@title='Purchase Ticket']").click()
+            except:
+                continue
+            else:
+                break           
         # driver.find_element(By.CSS_SELECTOR, '.buy-icon.icon').click()
 
         WebDriverWait(driver, 10000).until(
@@ -81,69 +88,130 @@ class  yellow_cow:
         )
         time.sleep(self.lag)
         
-        driver.find_elements(By.CLASS_NAME, 'area-info  ')[0].click()
+        while True:
+            try:
+                driver.find_elements(By.CLASS_NAME, 'area-info  ')[0].click()
+            except:
+                continue
+            else:
+                break            
+        
         
         for i in range(quantity):
             driver.find_elements(By.CLASS_NAME, 'icon-add ')[0].click()
-            
-        driver.find_element(By.CSS_SELECTOR,'.button-wrapper.select-button.blue').click()
+        
+        while True:
+            try:
+                driver.find_element(By.CSS_SELECTOR,'.button-wrapper.select-button.blue').click()
+            except:
+                continue
+            else:
+                break        
 
         WebDriverWait(driver, 10000).until(
             EC.presence_of_element_located((By.CSS_SELECTOR,".button-wrapper.cart-button.blue"))
         )
         time.sleep(self.lag)
-        driver.find_element(By.CSS_SELECTOR,'.button-wrapper.cart-button.blue').click()
+        
+        while True:
+            try:
+                driver.find_element(By.CSS_SELECTOR,'.button-wrapper.cart-button.blue').click()
+            except:
+                continue
+            else:
+                break         
         
     def check_out(self, card_details):
         driver = self.driver
         ## Check Out
-        WebDriverWait(driver, 10).until(
+        WebDriverWait(driver, 10000).until(
             EC.presence_of_element_located((By.CSS_SELECTOR,".button-wrapper.continue.blue"))
         )
         time.sleep(self.lag)
-        driver.find_element(By.CSS_SELECTOR,'.button-wrapper.continue.blue').click()
-
+        
+        while True:
+            try:
+                driver.find_element(By.CSS_SELECTOR,'.button-wrapper.continue.blue').click()
+            except:
+                continue
+            else:
+                break          
+        
         ## Card Details
-        WebDriverWait(driver, 10).until(
+        WebDriverWait(driver, 10000).until(
             EC.presence_of_element_located((By.CSS_SELECTOR,".input-content.field-input"))
         )
-        time.sleep(self.lag)
-
-        ## Card Type
+        time.sleep(self.lag)        
         
-        driver.find_element(By.XPATH,"//div[@title='MASTER CARD']").click()
-        ## Card Number
-        driver.find_element(By.NAME,"cardNumber").send_keys(card_details['card_number'])
-        ## Expire Month
-        print("Expire Month")
-        driver.find_elements(By.CSS_SELECTOR,"span[class='input-suffix-icon']")[1].click()
-        list_option = driver.find_elements(By.CLASS_NAME,"select-option  ")
-        for l in list_option:
-            if l.text == card_details['MM']:
-                l.click()
+        while True:
+            try:
+                ## Card Type
+                driver.find_element(By.XPATH,"//div[@title='MASTER CARD']").click()
+                
+                ## Card Number
+                driver.find_element(By.NAME,"cardNumber").send_keys(card_details['card_number'])              
+               
+                ## Security Code
+                driver.find_element(By.NAME, "cardSafeCode").send_keys(card_details['SafeCode'])
+                                
+            except:
+                continue
+            else:
                 break
-        ## Expire Year
-        print("Expire Year")
-        driver.find_elements(By.CSS_SELECTOR,"span[class='input-suffix-icon']")[2].click()
-        list_option = driver.find_elements(By.CLASS_NAME,"select-option  ")
-        for l in list_option:
-            if l.text == card_details['YY']:
-                l.click()
+ 
+        while True:
+            try:
+                ## Expire Month
+                print("Expire Month")
+                driver.find_elements(By.CSS_SELECTOR,"span[class='input-suffix-icon']")[1].click()
+                list_option = driver.find_elements(By.CLASS_NAME,"select-option  ")
+                for l in list_option:
+                    if l.text == card_details['MM']:
+                        l.click()
+                        break
+            except:
+                continue
+            else:
                 break
-        ## Security Code
-        driver.find_element(By.NAME, "cardSafeCode").send_keys(card_details['SafeCode'])
-
+            
+        while True:
+            try:
+                ## Expire Year
+                print("Expire Year")
+                driver.find_elements(By.CSS_SELECTOR,"span[class='input-suffix-icon']")[2].click()
+                list_option = driver.find_elements(By.CLASS_NAME,"select-option  ")
+                for l in list_option:
+                    if l.text == card_details['YY']:
+                        l.click()
+                        break
+            except:
+                continue
+            else:
+                break
+            
         ## Continue Button
-        driver.find_element(By.CSS_SELECTOR,'.button-wrapper.continue.blue').click()
-
+        while True:
+            try:
+                driver.find_element(By.CSS_SELECTOR,'.button-wrapper.continue.blue').click()             
+            except:
+                continue
+            else:
+                break      
+               
         ## Agree Buttons
-        WebDriverWait(driver, 10).until(
+        WebDriverWait(driver, 10000).until(
             EC.presence_of_element_located(((By.XPATH,"//div[@title='selected']")))
         )
         time.sleep(self.lag)
-        driver.find_elements(By.XPATH,"//div[@title='selected']")[1].click()   
-        driver.find_elements(By.XPATH,"//div[@title='selected']")[2].click()   
-        driver.find_elements(By.CSS_SELECTOR,'.button-wrapper.confirm.blue')[1].click()
+        while True:
+            try:
+                driver.find_elements(By.XPATH,"//div[@title='selected']")[1].click()   
+                driver.find_elements(By.XPATH,"//div[@title='selected']")[2].click()   
+                driver.find_elements(By.CSS_SELECTOR,'.button-wrapper.confirm.blue')[1].click()
+            except:
+                continue
+            else:
+                break        
 
 revolut = {
     "card_number" : 5354567905458617,
@@ -160,7 +228,7 @@ credentials = {
 ## Test
 test = yellow_cow(lag=0)
 test.login(credentials=credentials)
-test.buy_ticket(link="https://www.urbtix.hk/event-detail/9598/", quantity=1)
+test.buy_ticket(link="https://www.urbtix.hk/event-detail/9598/", quantity=2)
 test.check_out(card_details = revolut)
 
 
