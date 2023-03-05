@@ -10,6 +10,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import Select
 
 class  yellow_cow:
+    
     def __init__(self, lag = 3):
         options = webdriver.FirefoxOptions()
         # options = webdriver.ChromeOptions()
@@ -38,38 +39,56 @@ class  yellow_cow:
     def login(self, credentials):
         driver = self.driver
         driver.get("https://www.urbtix.hk/login")
-        WebDriverWait(driver, 100).until(
+        WebDriverWait(driver, 10000).until(
             EC.presence_of_element_located((By.NAME, "loginId"))
         )
+        time.sleep(self.lag)
         driver.find_element(By.NAME, "loginId").send_keys(credentials['username'])
         driver.find_element(By.NAME, "password").send_keys(credentials['passwd'])
         driver.find_element(By.CSS_SELECTOR, '.button-wrapper.login-button.blue').click()
-        WebDriverWait(driver, 100).until(
+        WebDriverWait(driver, 10000).until(
             EC.presence_of_element_located((By.CLASS_NAME, "home-container"))
         )
     def buy_ticket(self, link, quantity = 4):
         driver = self.driver
         ## Add 4 tickets to basket and confirm
         driver.get(link)
-        WebDriverWait(driver, 10).until(
+        WebDriverWait(driver, 10000).until(
             EC.presence_of_element_located((By.XPATH,"//div[@title='Purchase Ticket']"))
             # EC.presence_of_element_located((By.CSS_SELECTOR,".buy-icon.icon']"))
         )
-        driver.find_element_by_xpath("//div[@title='Purchase Ticket']").click()
+        time.sleep(self.lag)
+        driver.find_element(By.XPATH, "//div[@title='Purchase Ticket']").click()
         # driver.find_element(By.CSS_SELECTOR, '.buy-icon.icon').click()
 
-        WebDriverWait(driver, 10).until(
-            EC.presence_of_element_located((By.CSS_SELECTOR,".button-wrapper.cart-button.blue.disabled"))
+        WebDriverWait(driver, 10000).until(
+            EC.presence_of_element_located((By.CLASS_NAME,'area-info  '))
         )
-        time.sleep(5)        
-        driver.find_elements_by_class_name('area-info  ')[0].click()
+        time.sleep(self.lag)
+        
+        WebDriverWait(driver, 10000).until(
+            EC.presence_of_element_located((By.CLASS_NAME,'name'))
+        )
+        time.sleep(self.lag)
+        
+        WebDriverWait(driver, 10000).until(
+            EC.presence_of_element_located((By.CLASS_NAME,'price'))
+        )
+        time.sleep(self.lag)
+        
+        WebDriverWait(driver, 10000).until(
+            EC.presence_of_element_located((By.CSS_SELECTOR,'.button-wrapper.cart-button.blue.disabled'))
+        )
+        time.sleep(self.lag)
+        
+        driver.find_elements(By.CLASS_NAME, 'area-info  ')[0].click()
         
         for i in range(quantity):
-            driver.find_elements_by_class_name('icon-add ')[0].click()
+            driver.find_elements(By.CLASS_NAME, 'icon-add ')[0].click()
             
         driver.find_element(By.CSS_SELECTOR,'.button-wrapper.select-button.blue').click()
 
-        WebDriverWait(driver, 10).until(
+        WebDriverWait(driver, 10000).until(
             EC.presence_of_element_located((By.CSS_SELECTOR,".button-wrapper.cart-button.blue"))
         )
         time.sleep(self.lag)
@@ -91,6 +110,7 @@ class  yellow_cow:
         time.sleep(self.lag)
 
         ## Card Type
+        
         driver.find_element(By.XPATH,"//div[@title='MASTER CARD']").click()
         ## Card Number
         driver.find_element(By.NAME,"cardNumber").send_keys(card_details['card_number'])
@@ -138,8 +158,8 @@ credentials = {
 }
 
 ## Test
-test = yellow_cow(lag=5)
-test.login()
+test = yellow_cow(lag=0)
+test.login(credentials=credentials)
 test.buy_ticket(link="https://www.urbtix.hk/event-detail/9598/", quantity=1)
 test.check_out(card_details = revolut)
 
