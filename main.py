@@ -213,17 +213,6 @@ class  yellow_cow:
             else:
                 break        
 
-revolut = {
-    "card_number" : 5354567905458617,
-    "MM" : "07",
-    "YY" : "2027",
-    "SafeCode" : "306"
-}
-
-credentials = {
-    "username" : "ikjldsa",
-    "passwd" : "Ikjldsa.123"
-}
 
 ## Test
 test = yellow_cow(lag=0)
