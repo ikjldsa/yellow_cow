@@ -8,6 +8,19 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import Select
+from selenium.webdriver import ActionChains
+
+
+revolut = {
+    "card_number" : 000000000000,
+    "MM" : "07",
+    "YY" : "2027",
+    "SafeCode" : "306"
+}
+
+credentials = {
+
+}
 
 class  yellow_cow:
     
@@ -42,13 +55,34 @@ class  yellow_cow:
         WebDriverWait(driver, 10000).until(
             EC.presence_of_element_located((By.NAME, "loginId"))
         )
-        time.sleep(self.lag)
         driver.find_element(By.NAME, "loginId").send_keys(credentials['username'])
         driver.find_element(By.NAME, "password").send_keys(credentials['passwd'])
         driver.find_element(By.CSS_SELECTOR, '.button-wrapper.login-button.blue').click()
+
         WebDriverWait(driver, 10000).until(
-            EC.presence_of_element_located((By.CLASS_NAME, "home-container"))
+            EC.presence_of_element_located(((By.TAG_NAME, 'iframe')))
         )
+        
+        text = ""
+        while True:
+            for x in range(124,165,20):
+                print(x)
+                driver.switch_to.frame(driver.find_element(By.TAG_NAME, 'iframe'))
+                actions = ActionChains(driver)
+                ## Wait for slider content
+                WebDriverWait(driver, 10000).until(
+                    EC.presence_of_element_located(((By.CLASS_NAME, 'tc-fg-item.tc-slider-normal')))
+                )
+                slider = driver.find_element(By.CLASS_NAME, "tc-fg-item.tc-slider-normal")
+                actions.move_to_element(slider).click_and_hold().move_by_offset(x, 0).release().perform()
+                time.sleep(5)
+                text = driver.find_element(By.CLASS_NAME, "tc-success-text").text
+                driver.switch_to.default_content()
+                if text == 'Verification passed':
+                    break
+            if text == 'Verification passed':
+                break
+        
     def buy_ticket(self, link, quantity = 4):
         driver = self.driver
         ## Add 4 tickets to basket and confirm
@@ -220,6 +254,35 @@ test.login(credentials=credentials)
 test.buy_ticket(link="https://www.urbtix.hk/event-detail/9598/", quantity=2)
 test.check_out(card_details = revolut)
 
+# driver = test.driver
+# driver.get("https://www.urbtix.hk/login")
+# # WebDriverWait(driver, 10000).until(
+# #     EC.presence_of_element_located((By.NAME, "loginId"))
+# # )
+# driver.find_element(By.NAME, "loginId").send_keys(credentials['username'])
+# driver.find_element(By.NAME, "password").send_keys(credentials['passwd'])
+# driver.find_element(By.CSS_SELECTOR, '.button-wrapper.login-button.blue').click()
+# # WebDriverWait(driver, 10000).until(
+# #     EC.presence_of_element_located((By.CLASS_NAME, "tc-bg-img unselectable"))
+# # )
+
+# driver.find_element(By.ID, "tcaptcha_transform_dy")
+
+# token_space = driver.find_element(By.XPATH, value="//input[@class='el-input__inner']")
+
+# token_space.send_keys(token)
+# driver.find_element(By.XPATH, value="//i[@class='el-icon-search']").click()
+# time.sleep(8)
+
+# driver.switch_t('tcaptcha_iframe_dy')
+# slider = driver.find_element(By.CLASS_NAME, 'tc-fg-item tc-slider-normal')
+
+# driver.find_element(By.TAG_NAME, 'iframe')
+# driver.find_element(By.XPATH, "//iframe[contains(@id, 'tcaptcha')]")
+
+
+
+    
 
 # find_element(By.ID, "id")
 # find_element(By.NAME, "name")
