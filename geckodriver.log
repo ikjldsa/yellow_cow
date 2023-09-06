@@ -2074,3 +2074,78 @@ JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.bb7d82
 JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.bb7d827c.js, line 1863: WebGL context was lost.
 JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.bb7d827c.js, line 1863: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.bb7d827c.js, line 1863: WebGL context was lost.
+1684009536148	geckodriver	INFO	Listening on 127.0.0.1:64703
+1684009539157	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ben\\AppData\\Local\\Temp\\rust_mozprofile2UnCMb"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684009539530	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1684009539536	Marionette	INFO	Listening on port 64719
+Read port: 64719
+1684009540022	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ben\\AppData\\Local\\Temp\\rust_mozprofile2UnCMb\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+JavaScript warning: https://www.urbtix.hk/b3c79ec/f890b6f5917/6da34174.js line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.bb7d827c.js, line 1863: WebGL context was lost.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.bb7d827c.js, line 1863: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.bb7d827c.js, line 1863: WebGL context was lost.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.bb7d827c.js, line 1863: WebGL context was lost.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.bb7d827c.js, line 1863: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.bb7d827c.js, line 1863: WebGL context was lost.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 599))
+JavaScript warning: https://t.captcha.qq.com/tdc.js?app_data=7063248022107979776&t=1241250891, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://t.captcha.qq.com/tdc.js?app_data=7063248022107979776&t=1241250891, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1684009633890	geckodriver	INFO	Listening on 127.0.0.1:64948
+1684009636896	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ben\\AppData\\Local\\Temp\\rust_mozprofileQxs7CW"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684009637244	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1684009637250	Marionette	INFO	Listening on port 64965
+Read port: 64965
+1684009637685	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ben\\AppData\\Local\\Temp\\rust_mozprofileQxs7CW\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+JavaScript warning: https://www.urbtix.hk/b3c79ec/f890b6f5917/6da34174.js line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.bb7d827c.js, line 1863: WebGL context was lost.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.bb7d827c.js, line 1863: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.bb7d827c.js, line 1863: WebGL context was lost.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.bb7d827c.js, line 1863: WebGL context was lost.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.bb7d827c.js, line 1863: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.bb7d827c.js, line 1863: WebGL context was lost.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 599))
+JavaScript warning: https://t.captcha.qq.com/tdc.js?app_data=7063248442402406400&t=177804084, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://t.captcha.qq.com/tdc.js?app_data=7063248442402406400&t=177804084, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.urbtix.hk."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.urbtix.hk."
+1684010238749	Marionette	INFO	Stopped listening on port 64965
+Dynamically enable window occlusion 1
+[Parent 28072, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1693665910528	geckodriver	INFO	Listening on 127.0.0.1:54778
+1693665913521	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ben\\AppData\\Local\\Temp\\rust_mozprofileHWE1jU"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693665914176	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1693665915252	Marionette	INFO	Listening on port 54797
+Read port: 54797
+1693665915467	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.urbtix.hk/b3c79ec/f890b6f5917/6da34174.js line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.88291059.js, line 2035: WebGL context was lost.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.88291059.js, line 2035: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.88291059.js, line 2035: WebGL context was lost.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.88291059.js, line 2035: WebGL context was lost.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.88291059.js, line 2035: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://s01-pro.wxmovie.com/hk-show/hk-pc-fe-prod/umi.88291059.js, line 2035: WebGL context was lost.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 593))
+JavaScript warning: https://turing.captcha.qcloud.com/tdc.js?app_data=7103749815966371840&t=1810975204, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://turing.captcha.qcloud.com/tdc.js?app_data=7103749815966371840&t=1810975204, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.urbtix.hk."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.urbtix.hk."
